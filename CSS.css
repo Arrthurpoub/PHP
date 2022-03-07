@@ -1,0 +1,21 @@
+:root {
+    --maCouleurDominante: #006633;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, tr, td {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--maCouleurDominante);
+    text-align: center;
+    padding: 5px;
+}
+
+table th {
+    color: white;
+    border-color: orange;
+    background-color: var(--maCouleurDominante);}
